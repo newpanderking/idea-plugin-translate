@@ -1,0 +1,32 @@
+<idea-plugin>
+    <id>com.jason.translate.translate</id>
+    <name>有道翻译插件</name>
+    <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">Jason`s idea 翻译插件</vendor>
+
+    <description><![CDATA[
+    练习插件编写，模仿写了一个有道翻译的小插件，非商业用途，仅供学习使用，谢谢！<br>
+    ]]></description>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+        <action id="com.jason.plugin.TranslateBox" class="com.jason.plugin.TranslateBox" text="translate"
+                description="plugin">
+            <add-to-group group-id="OtherMenu" anchor="last"/>
+        </action>
+    </actions>
+    <application-components>
+        <component>
+            <implementation-class>com.jason.plugin.TranslateComponent</implementation-class>
+        </component>
+    </application-components>
+</idea-plugin>
