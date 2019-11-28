@@ -4,4 +4,4 @@
 > 当前版本，直接直接内置有道查询配置，用户输入配置目前还不支持存储。
 > 待研究插件实例化component `PersistentStateComponent`使用方法。
 
-## 下载插件使用： 
+## [下载插件](https://github.com/newpanderking/idea-plugin-translate/raw/master/translate-1.0-SNAPSHOT.jar)
